@@ -19,4 +19,3 @@ function myFunction() { //function that concatenates two string using += operato
     sentence += " a lot from this book";
     document.getElementById("Concatenate").innerHTML = sentence;
 }
-myFunction()
