@@ -20,3 +20,14 @@ function fullYear() {
 }
 
 fullYear();
+
+function myBrokenFunc() { // The broken function
+    var X = 7;
+    var Y = 9;
+    if (X > P) { // it's calling a variable that doesn't exsist and cites this line
+        console.log("That doesn't seem right");
+    }
+    else {
+        console.log("all is well my friend");
+    }
+}
