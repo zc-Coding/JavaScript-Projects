@@ -6,3 +6,4 @@ function myNumFunc() {
         document.getElementById("response").innerHTML = "It's too big now... sad";
     }
 }
+
