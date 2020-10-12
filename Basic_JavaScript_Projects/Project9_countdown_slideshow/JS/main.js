@@ -36,7 +36,6 @@ function countdown() {
         setTimeout(tick, 1000);
     if(seconds == -1) {
         alert("Time's up!");
-        return;
     }
         }
     tick();
